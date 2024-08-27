@@ -1,118 +1,12 @@
 html {
-    font-size: 62.5%;
+    font-family: 'Open Sans';
 }
 
 body {
-    margin: 0 auto;
     height: 100vh;
     max-width: 1440px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    background: url('../images/bg-desktop.svg') #674baf center center no-repeat;
+    margin: 0 auto;
+
+    background: url(../images/bg-desktop.svg) center center no-repeat;
     background-size: cover;
-}
-
-.header {
-    max-height: 18rem;
-    padding: 6rem 7rem;
-
-    display: flex;
-    align-items: center;
-}
-
-.header .logo img {
-    width: 21.5rem;
-}
-
-.greetings-section {
-    padding: 2rem 7rem ;
-
-    display: flex;
-}
-
-.greetings-section img {
-    max-height: 32.55vw;
-    width: auto;
-}
-
-.greetings-section .info-container {
-    padding-top: 4rem;
-    max-width: 520px;
-    margin-left: 5.5rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.greetings-section .info-container h2  {
-    margin-bottom: 2rem;
-
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    font-size: 4rem;
-    text-transform: capitalize;
-    font-weight: 600;
-}
-
-.greetings-section .info-container p {
-    margin-bottom: 2.6rem;
-
-    font-family: 'Open Sans', sans-serif;
-    color: #fff;
-    font-size: 1.8rem;
-    line-height: 2.6rem;
-    
-}
-
-.greetings-section .info-container .register-button {
-    align-self: flex-start;
-    padding: 1.4rem 6.3rem;
-    margin-left: .3rem;
-    
-    font-size: 1.8rem;
-    font-family: 'Poppins', sans-serif;
-    color: #674baf;
-    text-transform: capitalize;
-    
-    background-color: #fff;
-    border-radius: 50px;
-    box-shadow: 5px 5px 10px #00000080;
-
-    transition: 0.3s;
-}
-
-.greetings-section .info-container .register-button:hover{
-    background-color: #e882e8;
-    color: #fff
-}
-
-.footer {
-    max-height: 10rem;
-    padding: 0 7.8rem;
-    display: flex;
-    justify-content: flex-end;
-    gap: 1.6rem;
-}
-
-.footer a {
-    height: 4rem;
-    width: 4rem;
-    border: 1px solid #fff;
-    border-radius: 50px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    font-size: 2rem;
-    color: #fff;
-
-    transition: 0.3s;
-}
-
-.footer a:hover {
-    border: 1px solid #F94FBC;
-    color: #F94FBC;
 }

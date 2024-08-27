@@ -1,0 +1,91 @@
+@media(max-width: 1200px){
+    .greetings-section {
+        align-items: center;
+    }
+}
+
+@media(max-width: 820px){
+    .greetings-section {
+        
+        padding: 0 1rem 2rem;
+        align-items: center;
+        
+
+    }
+
+    .greetings-section img {
+        width: 40vw;
+        height: auto;
+        
+
+    }
+
+    .greetings-section .info-container h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media(max-width: 480px){
+    body {
+
+        background: url('../images/bg-mobile.svg') #674baf center center no-repeat;
+        background-size: cover;
+
+        justify-content: space-between;
+
+    }
+    .header {
+        align-items: flex-start;
+        padding: 3.5rem .5rem;
+        max-height: 8em;
+    }
+    .header .logo img{
+        width: 14.75rem;
+    }
+
+    .greetings-section {
+        padding: 2.9rem 0 0;
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .greetings-section .info-container{
+        margin: 0;
+        padding: 0 .6rem;
+        text-align: center;
+    }
+
+    .greetings-section .info-container h2 {
+        font-size: 2.65rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .greetings-section .info-container p {
+        font-size: 1.8rem;
+        margin-bottom: 3rem;
+    }
+
+    .greetings-section .info-container .register-button {
+        align-self: center;
+
+        padding: 1.2rem 8.2rem;
+        font-size: 1.4rem;
+
+    }
+
+    .footer {
+        flex: 1;
+
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .footer a {
+        font-size: 1.2rem;
+
+        height: 3rem;
+        width: 3rem;
+    }
+}
+
