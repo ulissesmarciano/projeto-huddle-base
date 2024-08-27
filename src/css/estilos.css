@@ -1,12 +1,113 @@
 html {
-    font-family: 'Open Sans';
+    
+    font-size: 62.5%;
 }
 
 body {
     height: 100vh;
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 6.9rem;
 
-    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background: url(../images/bg-desktop.svg) #674baf center center no-repeat;
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    margin-bottom: 8.3rem;
+}
+
+.header img {
+    height: 5.35rem;
+}
+
+.greetings-section {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.greetings-section .image-container {
+    padding: 0 .3rem;
+
+}
+
+.greetings-section .info-container {
+    padding: 4.5rem 2rem 0 5rem;
+
+    display: flex;
+    gap: 2.2rem;
+    flex-direction: column;
+}
+
+.greetings-section .info-container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.93rem;
+    color: var(--text-color);
+}
+
+.greetings-section .info-container p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: var(--text-color);
+}
+
+.greetings-section .info-container .register-button {
+    width: 20rem;
+    height: 6rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #00000080;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+
+    transition: 0.3s;
+}
+
+.greetings-section .info-container .register-button:hover {
+    color: var(--text-color);
+    background-color: #e882e8;
+
+}
+
+.footer {
+    padding: 2rem 1.2rem;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+
+}
+
+.footer a {
+    height: 4rem;
+    width: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--text-color);
+    border: 1px solid #fff;
+    border-radius: 50px;
+    font-size: 2rem;
+
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    border: 1px solid #F94FBC;
+    color: #F94FBC;
 }
