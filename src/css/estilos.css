@@ -36,6 +36,10 @@ body {
 
 }
 
+.greetings-section .image-container img {
+    width: 37vw;
+}
+
 .greetings-section .info-container {
     padding: 4.5rem 2rem 0 5rem;
 
