@@ -91,11 +91,15 @@ body {
 
     display: flex;
     justify-content: flex-end;
-    gap: 1.5rem;
 
 }
 
-.footer a {
+.footer nav ul {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.footer nav ul li a {
     height: 4rem;
     width: 4rem;
 
@@ -111,7 +115,7 @@ body {
     transition: 0.3s;
 }
 
-.footer a:hover {
+.footer nav ul  li a:hover {
     border: 1px solid #F94FBC;
     color: #F94FBC;
 }
