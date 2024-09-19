@@ -4,7 +4,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/ulissesmarciano/projeto-huddle-base?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/ulissesmarciano/projeto-huddle-base?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/ulissesmarciano/projeto-huddle-base?style=for-the-badge)
-![GitHub open issues](https://img.shields.io/github/issues/ulissesmarciano/hubkut?style=for-the-badge)
+![GitHub open issues](https://img.shields.io/github/issues/ulissesmarciano/projeto-huddle-base?style=for-the-badge)
 
 <img src="./src/readme/imagem.png" alt="Imagem do projeto">
 
@@ -12,7 +12,7 @@
 <br>
 
 
-Hubkut combina o design nostálgico do Orkut com funcionalidades da API do GitHub. É um projeto hospedado no GitHub que oferece uma interface familiar para interação social e colaboração em repositórios, promovendo uma experiência única de rede social para desenvolvedores.
+O projeto hurdle base é um desafio de HTML e CSS.
 
 <br>
 
